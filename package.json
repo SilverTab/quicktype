@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "main": "dist/cli/index.js",
   "types": "dist/cli/index.d.ts",
-  "repository": "https://github.com/quicktype/quicktype",
+  "repository": "https://github.com/SilverTab/quicktype",
   "scripts": {
     "pub": "script/publish.sh",
     "prepare": "npm run build",
