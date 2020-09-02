@@ -1153,7 +1153,7 @@ export class KotlinGsonRenderer extends KotlinRenderer {
     protected emitHeader(): void {
         super.emitHeader();
 
-        this.emitLine(["import com.google.gson.Gson"]);
+        this.emitLine(["import com.google.gson.annotations.SerializedName"]);
     }
 
     protected renameAttribute(name: Name, jsonName: string, _required: boolean, meta: Array<() => void>) {
